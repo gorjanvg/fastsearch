@@ -40,14 +40,19 @@ mark.color2 {
 }
 .site-header a{
 	display: block;
+	height: 101px;
+	box-sizing:border-box;
+	padding: 55px 10px 0 10px;
 	float: right;
 	background-color: #e74c3c;
 	color: #fff;
-	opacity: .5;
 	text-decoration: none;
 	font-size: 16px;
 	text-transform: uppercase;
-	margin: 40px 20px 0 0;
+}
+.site-header a:hover {
+	background-color: rgba(255, 255, 255, .3);
+	color: #ffffff;
 }
 section.home {
 	width: 1000px;
@@ -84,9 +89,6 @@ section.clients {
 	width: 100%;
 	height: 357px;
 	background-color: #ffffff;
-}
-section.clients {
-	width: 100%;
 }
 section.clients .us{
 	width: 1000px;
@@ -203,19 +205,390 @@ section.our .projects i{
 mark.color8 {
 	color: #e74c3c;
 }
-section.futer {
+/*section.futer {
 	width: 100%;
 	height: 235px;
 	background-color: #000000;
 }
-section.futer .end {
+section.futer > div {
 	width: 1000px;
+	margin: 0 auto;
 }
 section.futer .end {
-	width: 200px;
+	width: 250px;
 	margin: 5px;
+	float: left;
+}
+
+section.futer div.left{
+	width: 25%;
+}
+
+section.futer div.center{
+	width: 50%;
+}
+
+section.futer div.right{
+	width: 25%;
+}
+
+section.futer .end h4{
+	display: block;
+	font-size:18px;
+	margin-top: 35px;
+	margin-left: -15px;
+	text-transform: uppercase;
+	float: left;
+}
+mark.color8{
+	background-color: #000000;
+}
+section.futer .end img {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 3px;
+}
+section.futer .end p{
+	font-size: 15px;
+	margin-top: 29px;
+	margin-left: -15px;
+	display: inline-block;
+	text-align: left;
+}
+section.futer .end span{
+	display: block;
+	float: left;
+	margin-top: 8px;
+	margin-left: 5px;
+	font-size: 15px;
+	margin-left: -30px;
+	width: 94%;
+	text-align: left;
+}
+mark.color9 {
+	background-color: #000000;
+	color: #bd3d2f;
+}
+section.futer .end .center {
+	width: 500px;
+}
+
+section.futer .end .center h4{
+	font-size:18px;
+	margin-top: 35px;
+	color: #ffffff;
+	text-transform: uppercase;
+	
+}
+mark.color10 {
+	background-color: #000000;
+	color: #e74c3c;
+	float: left;
+
+}
+section.futer .end img {
+	width: 50px;
+	height: 50px;
+
+}
+section.futer .end .center p{
+	color: #ffffff;
+	font-size: 15px;
+}
+section.futer .end img {
+	width: 50px;
+	height: 50px;
+	float: left
+}*/
+
+
+section.footer {
+	background-color: #000;
+	width: 100%;
+	height: 235px;
+}
+
+section.footer .container {
+	width: 1000px;
+	margin: 0 auto;
+	background: yellow;
+}
+
+section.footer .container > div {
+	padding: 35px 10px 35px 0;
+	float: left;
+	background-color: #fff;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+section.footer .container .left {
+	width: 25%;
+}
+
+section.footer .container .center {
+	width: 50%;
+}
+
+section.footer .container .center p{
+	width: 50%;
+	float: left;
+}
+
+section.footer .container .right {
+	width: 25%;
+}
+
+section.footer .container > div h4 {
+	text-align: left;
+}
+
+section.footer .container > div p {
+	text-align: left;
+}
+
+section.footer .container > div img {
+	width: 49px;
+	height: 49px;
+	float: left;
+	margin: 0 10px 5px 0;
+}
+
+
+/*od tuka pochnuva about*/
+section.header2 {
+	width: 100%;
+	height: 244px;
+	background-color: #363636;
+}
+
+section.header2 .site-header2 {
+	width: 1000px;
+	height: 101px;
+	background-color: #e74c3c;
+	margin: 0 auto;
+}
+.site-header2 i{
+	color: #fff;
+	background-color: #e74c3c;
+	font-size: 20px;
+	float: left;
+	padding: 10px 0 0 50px;
+	margin: 5px;
+}
+.site-header2 p{
+	display: inline-block;
+	background-color: #e74c3c;
+	float: left;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+mark.color1, mark.color2{
+	background-color: #e74c3c;
+	color: #fff;
+	padding: 0;
+}
+mark.color2 {
+	opacity: .5;
+}
+.site-header2 a{
+	display: block;
+	float: right;
+	background-color: #e74c3c;
+	color: #fff;
+	opacity: .5;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin: 40px 20px 0 0;
+}
+section.about {
+	width: 100%;
+}
+section.about .nav{
+	width: 1000px;
+	margin: 0 auto;
+}
+section.about .nav a, .nav p{
+	font-size: 16px;
+	color: #bebebe;
+	float: left;
+	margin: 3px;
+	text-decoration: none;
+	margin-top: 119px;
+}
+section.history {
+	width: 100%;
+	height: 444px;
+	background-color: #ffffff;
+	padding-bottom: 50px;
+}
+section.history > div {
+	width: 1000px;
+	margin: 0px auto;
+	display: block;
+}
+section.history .values {
+	width: 70%;
+	float: left;
+	margin: 0 auto;
+}
+section.history .values2 {
+	width: 30%;
+	float: left;
+	margin: 0 auto;
+}
+section.history .values h1 {
+	font-size: 22px;
+	margin-top: 100px;
+	color: #3e3e3e;
+	margin-right: 415px;
+	text-align: left;
+}
+section.history .values2 h1 {
+	font-size: 22px;
+	margin-top: 100px;
+	color: #3e3e3e;
+	margin-right: 415px;
+	text-align: left;
+}
+section.history .values h5 {
+	margin-top: 34px;
+	font-size: 14px;
+}
+section.history .values p  {
+	margin-top: 34px;
+	font-size: 16px;
+	text-align: left;
+	color: #b6b6b6;
+	width: 95%;
+}
+section.history .values2 h4 {
+	display: block;
+	margin-top: 34px;
+	margin-right: 0;
+	margin-bottom: 55px;
+	font-size: 14px;
+	text-align: left;
+	color: #b6b6b6;
+	width: 100%;
+}
+section.history .values2 h5{
+	display: block;
+	margin-top: 68px;
+	font-size: 16px;
+	text-align: left;
+	color: #b6b6b6;
+	width: 235px;
+}
+
+.box  {
+	float: left;
+    width: 5px;
+    height: 5px;
+    margin: 5px;
+    margin-top: 40px;
+    border: 1px solid #e74c3c;
+    background-color: #e74c3c;
+}
+.box1 {
+	float: left;
+	width: 5px;
+	height: 5px;
+	margin: 5px;
+	/*margin-top: 99px;*/
+	border: 1px solid #e74c3c;
+    background-color: #e74c3c;
+}
+.box2 {
+	float: left;
+	width: 5px;
+	height: 5px;
+	margin: 5px;
+	margin-top: 19px;
+	border: 1px solid #e74c3c;
+    background-color: #e74c3c;
+}
+section.help2{
+	width: 100%;
+	height: 300px;
+	background-color: #e74c3c;
+}
+section.help2 .why {
+	width: 1000px;
+	height: 296px;
+	margin: 0 auto;
+}
+section.help2 h3 {
+	padding-top: 50px;
+	font-size: 38px;
+	color: #ffffff;
+	font-weight: 300;
+}
+section.help2 .why {
+	width: 250px;
+	margin: 5px;
+	margin-top: 56px;
 	display: inline-block;
 }
-section.futer .end{
+section.help2 .why p {
+	font-size: 14px;
 	color: #ffffff;
+}
+section.oprtunitie{
+	width: 100%;
+	background-color: #ffffff;
+}
+section.oprtunitie .oprtunities {
+	width: 1000px;
+	height: 442px;
+	margin: 0 auto;
+}
+section.oprtunitie .oprtunities {
+	width: 400px;
+	margin: 10px;
+	display: inline-block;
+	text-align: left;
+}
+section.oprtunitie .oprtunities h3 {
+	margin-top: 100px;
+	display: block;
+	margin-left: -230px;
+	color: #3e3e3e;
+	font-size: 22px;
+	text-transform: uppercase;
+	padding: 0;
+} 
+section.oprtunitie .oprtunities p {
+	font-size: 14px;
+	text-align: left;
+	margin-top: 34px;
+	color: #3e3e3e;
+}
+section.oprtunitie .oprtunities i {
+	float: right;
+	margin:-20px 10px 15px 0px;
+	font-size: 14px;
+}
+mark.color11{
+	color: #a1a1a1;
+}
+mark.color12 {
+	background-color: #ffffff;
+	color: #e74c3c;
+}
+section.oprtunitie .oprtunities span{
+	font-size: 14px;
+	display: block;
+	margin-top: 31px;
+	text-align: left;
+	color: #3e3e3e;
+}
+section.oprtunitie .oprtunities h4 {
+	font-size: 14px;
+	margin-top: 31px;
+	color: #3e3e3e;	
+	text-align: left;
+	font-weight: normal;
 }
