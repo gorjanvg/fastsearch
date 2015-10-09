@@ -318,7 +318,7 @@ section.footer .container {
 section.footer .container > div {
 	padding: 35px 10px 35px 0;
 	float: left;
-	background-color: #fff;
+	/*background-color: #fff;*/
 	text-align: left;
 	box-sizing: border-box;
 }
@@ -334,18 +334,32 @@ section.footer .container .center {
 section.footer .container .center p{
 	width: 50%;
 	float: left;
+	margin-top: 10px;
 }
 
 section.footer .container .right {
 	width: 25%;
 }
-
+section.footer .contaner.left a{
+	text-decoration: none;
+}
 section.footer .container > div h4 {
 	text-align: left;
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	/*margin-bottom: 29px;*/
+}
+mark.color9{
+	background-color: #000;
+	color: #e74c3c;
 }
 
 section.footer .container > div p {
 	text-align: left;
+	font-size: 12px;
+	color: #707070;
+	margin-top: 10px;
 }
 
 section.footer .container > div img {
@@ -354,7 +368,12 @@ section.footer .container > div img {
 	float: left;
 	margin: 0 10px 5px 0;
 }
-
+section.footer .container .right i{
+	color: #898989;
+	font-size: 12px;
+	margin-right: 10px;
+	margin-top: 22px;
+}
 
 /*od tuka pochnuva about*/
 section.header2 {
@@ -394,6 +413,7 @@ mark.color2 {
 }
 .site-header2 a{
 	display: block;
+	height: 101px;
 	float: right;
 	background-color: #e74c3c;
 	color: #fff;
@@ -401,7 +421,12 @@ mark.color2 {
 	text-decoration: none;
 	font-size: 16px;
 	text-transform: uppercase;
-	margin: 40px 20px 0 0;
+	padding: 55px 10px 0 10px;
+	box-sizing:border-box;
+}
+.site-header2 a:hover {
+	background-color: rgba(255, 255, 255, .3);
+	color: #fff;
 }
 section.about {
 	width: 100%;
@@ -591,4 +616,45 @@ section.oprtunitie .oprtunities h4 {
 	color: #3e3e3e;	
 	text-align: left;
 	font-weight: normal;
+}
+section.products {
+	width: 100%;
+	margin-bottom: 100px;
+}
+section.products .product {
+	width: 1000px;
+}
+section.products .product {
+	width:50%;
+	display: inline-block;
+}
+section.products .product{
+	width: 500px;
+	margin: 0 auto;
+}
+section.products .product h3 {
+	font-size: 22px;
+	text-align: left;
+	width: 40%;
+	margin-left: 13px;
+	margin-top: 100px;
+	color: #3e3e3e;
+}
+mark.color13{
+	background-color: #ffffff;
+	color: #e74c3c;
+}
+
+section.products .product p {
+	text-align: left;
+	margin-left: 13px;
+	font-size: 14px;
+	margin-top: 34px;
+	margin-bottom: 29px;
+}
+section.products .product >img {
+	width: 235px;
+	height: 132px;
+	margin-top: 80px;
+	margin: 5px;
 }
